@@ -17,6 +17,7 @@ Base para presentador web desarrollado en Sinatra
 
 
 ## Dependencias
+- [bootstrap](http://getbootstrap.com/)
 - [shotgun](https://github.com/rtomayko/shotgun)
 - [sinatra](https://github.com/sinatra/sinatra/)
 - [slim](https://github.com/slim-template/slim)
