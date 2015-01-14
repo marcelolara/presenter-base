@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require 'slim'
 
 class ApplicationController < Sinatra::Base
 
