@@ -1,6 +1,6 @@
 require_relative 'application_controller'
 
-class WebsiteController < ApplicationController
+class RouteController < ApplicationController
 
   get '/' do
     slim :index
