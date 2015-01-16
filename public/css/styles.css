@@ -1,0 +1,56 @@
+/* DOCUMENT INFORMATION
+	- Document: Global Style
+	- Version:  0.1
+	- Author:   Marcelo Lara
+*/
+
+/** GLOBAL **/
+html, body {
+	height: 100%;
+	background-color:#e9eaed;
+}
+
+.wrapper,
+.row {
+	height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+
+}
+
+.full-height {
+	height: 100%;
+}
+
+
+/** NAVBAR-MAIN **/
+#navbar-main {
+	margin-bottom: 0;
+	border-width: 0 0 1px 0;
+	border-radius: 0;
+}
+
+
+/** SIDEBAR **/
+#sidebar {
+	padding: 0;
+	background-color: #222;
+}
+#sidebar a {
+	color: #ffffff;
+}
+#sidebar a:hover {
+	background-color: #000;
+}
+#sidebar a i {
+	margin-right: 5px;
+}
+
+
+/** MEDIA **/
+@media (max-width: 768px) {
+	#sidebar .nav > li > a {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
