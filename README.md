@@ -16,7 +16,7 @@ Base para presentador web desarrollado en Sinatra
 ### Uso
 **Desarrollo con shotgun:**
 ```
-	bundle exec shotgun config.ru
+	bundle exec shotgun
 ```
 
 **Produccion con Rack:**
