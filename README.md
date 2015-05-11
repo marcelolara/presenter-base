@@ -12,7 +12,6 @@ Base para presentador web desarrollado en Sinatra
 	bundle install
 ```
 
-
 ### Uso
 **Desarrollo con shotgun:**
 ```
@@ -31,4 +30,4 @@ Base para presentador web desarrollado en Sinatra
 - [sinatra](https://github.com/sinatra/sinatra/)
 - [slim](https://github.com/slim-template/slim)
 - [thin](https://github.com/macournoyer/thin/)
-
+- [i18n](https://github.com/mattetti/i18n)
