@@ -1,7 +1,3 @@
-require 'sinatra/base'
-require 'i18n'
-require 'slim'
-
 class ApplicationController < Sinatra::Base
 
   set :root, File.expand_path('../../', __FILE__)
